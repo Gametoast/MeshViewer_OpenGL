@@ -1,0 +1,37 @@
+This is a viewer for .msh files made by Anakin.
+questions, bug reports, requests: http://www.gametoast.com/viewtopic.php?f=29&t=32624
+source code: https://git.rwth-aachen.de/carstenf/OpenGL/tree/master/QtMeshViewer
+
+===============================================================
+Controll:
+
+Free Camera: static view position and you rotate and move the object
+left mouse - rotate
+right mouse - move
+scroll - zoom
+
+Orbit Camera: static object and you move around it like a satalite
+left mouse - rotate
+scroll - zoom
+
+Move Camera: static object and you can walk through the scene
+w/s - forward/backward
+a/d - left/right
+left mouse - look around
+
+General:
+space - reset view
+L - set light to current position
+esc - close
+
+using the X, Y, Z buttons you can activate/deactivate the rotating directions.
+
+tipp: do round movement to rotate the object in z-direction, when all directions are acitvated
+
+textures marked with a '*' couldn't be open.
+
+===============================================================
+Credits:
+ANDEWEGET
+opengl.org
+forum.qt.io

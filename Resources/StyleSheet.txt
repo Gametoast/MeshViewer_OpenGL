@@ -1,0 +1,79 @@
+QLabel#output {
+	color : white;
+	min-width: 400px;
+	min-height: 50px;
+}
+
+QToolButton {
+	image: url(:/images/toolbar/placeholder.png);
+	border-style: none;
+	padding: 2px;
+	width: 22px;
+	height: 22px;
+}
+
+QToolButton:checked {
+	image: url(:/images/toolbar/placeholder.png);
+	border-style: none;
+	padding: 2px;
+	width: 22px;
+	height: 22px;
+}
+
+QToolButton:hover {
+	border-style: solid;
+	padding: 1px;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #a4daff;
+	min-height: 25px
+}
+
+QToolButton#openFile {
+	image: url(:/images/toolbar/open.png);
+}
+
+QToolButton#screenshot {
+	image: url(:/images/toolbar/screenshot.png);
+}
+
+QToolButton#freeCamera {
+	image: url(:/images/toolbar/freeCamera.png);
+}
+
+QToolButton#orbitalCamera {
+	image: url(:/images/toolbar/orbitalCamera.png);
+}
+
+QToolButton#walkCamera {
+	image: url(:/images/toolbar/walkCamera.png);
+}
+
+QToolButton#wireframe {
+	image: url(:/images/toolbar/solid.png);
+}
+
+QToolButton#wireframe:checked {
+	image: url(:/images/toolbar/wireframe.png);
+}
+
+QToolButton#light {
+	image: url(:/images/toolbar/light_off.png);
+}
+
+QToolButton#light:checked {
+	image: url(:/images/toolbar/light_on.png);
+}
+
+QToolButton#settings {
+	image: url(:/images/toolbar/settings.png);
+}
+
+QToolButton#fileInfo {
+	image: url(:/images/toolbar/info.png);
+}
+
+QToolButton#help {
+	image: url(:/images/toolbar/about.png);
+}
+

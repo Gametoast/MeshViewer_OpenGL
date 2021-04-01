@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file>fshader.glsl</file>
+        <file>vshader.glsl</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>icon.ico</file>
+    </qresource>
+    <qresource prefix="/files">
+        <file>about.txt</file>
+        <file>StyleSheet.txt</file>
+    </qresource>
+    <qresource prefix="/images/toolbar">
+        <file>placeholder.png</file>
+        <file>info.png</file>
+        <file>about.png</file>
+        <file>open.png</file>
+        <file>screenshot.png</file>
+        <file>wireframe.png</file>
+        <file>light_off.png</file>
+        <file>light_on.png</file>
+        <file>solid.png</file>
+        <file>settings.png</file>
+        <file>freeCamera.png</file>
+        <file>orbitalCamera.png</file>
+        <file>walkCamera.png</file>
+    </qresource>
+</RCC>
