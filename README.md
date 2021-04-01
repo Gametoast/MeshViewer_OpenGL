@@ -6,6 +6,12 @@ Why OpenGL for a viewer?
 well that way i can display specular and normal maps and maybe show animations, too.
 Gametoast release thread: http://www.gametoast.com/viewtopic.php?f=64&t=32785
 
+
+### Repository
+
+The release folder contains the latest stable build. The code can be found in the master branch
+
+
 ### Licence
 Feel free to use my code the way you like. But remember i used some public libraries. Make sure you read their
 licence, too.
